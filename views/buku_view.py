@@ -50,6 +50,20 @@ class BukuView(ctk.CTk):
             fg_color="green"
         )
         self.btn_simpan.pack(pady=20, padx=15, fill="x")
+
+        self.btn_perbarui = ctk.CTkButton(
+            self.frame_kiri,
+            text="Perbarui Data",
+            fg_color="orange"
+        )
+        self.btn_perbarui.pack(pady=(0, 10), padx=15, fill="x")
+
+        self.btn_hapus = ctk.CTkButton(
+            self.frame_kiri,
+            text="Hapus Data",
+            fg_color="red"
+        )
+        self.btn_hapus.pack(pady=(0, 20), padx=15, fill="x")
         # =====================================
         # FRAME KANAN: TABEL DAFTAR BUKU
         # =====================================
@@ -84,4 +98,4 @@ class BukuView(ctk.CTk):
 # Blok eksekusi untuk menguji tampilan grafis
 if __name__ == "__main__":
     app = BukuView()
-    app.mainloop()
+    app.mainloop()

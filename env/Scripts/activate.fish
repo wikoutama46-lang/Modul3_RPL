@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV 'G:\My Drive\Kuliah\Mata kuliah\Semester 3\Praktikum RPL\Program\env'
+set -gx VIRTUAL_ENV 'G:\My Drive\Kuliah\Mata kuliah\Semester 3\Praktikum RPL\Program\Modul6\env'
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/"Scripts $PATH
